@@ -26,6 +26,9 @@
 #endif
 
 #define BOARD_INFO_NAME "BIGTREE SKR 1.3"
+// Set micro step multiplier in Configuration.h and Configuration_adv.h
+// Valid values are 1, 2, 4, 8, 16
+#define MICRO_STEP_MULTIPLIER 1
 
 // Ignore temp readings during development.
 //#define BOGUS_TEMPERATURE_GRACE_PERIOD 2000
